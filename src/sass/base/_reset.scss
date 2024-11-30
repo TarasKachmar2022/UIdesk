@@ -2,6 +2,7 @@
 body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
+  background-color: var(--background-cl);
 }
 
 h1,
@@ -12,7 +13,7 @@ h5,
 h6,
 p {
   margin: 0;
-  letter-spacing: 0.02em;
+  letter-spacing: 0em;
 }
 
 ul,

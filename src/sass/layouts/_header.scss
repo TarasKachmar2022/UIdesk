@@ -1,0 +1,8 @@
+.header__container {
+  @include section(30, 50);
+  @extend .container;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

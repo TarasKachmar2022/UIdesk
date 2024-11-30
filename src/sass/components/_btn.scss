@@ -1,0 +1,35 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: var(--btn-br);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  color: inherit;
+  background-color: var(--accent-cl);
+  min-width: 155px;
+  padding-top: 9px;
+  padding-right: 15px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  transition-property: background-color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-hovered-cl);
+  }
+}
+
+.btn--white {
+  color: var(--accent-cl);
+  background-color: var(--btn-white-cl);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-hovered-cl);
+  }
+}

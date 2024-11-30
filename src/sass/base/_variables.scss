@@ -1,0 +1,31 @@
+:root {
+  // --mobile: 375px;
+  // --tablet: 744px;
+  // --desktop: 1440px;
+  --large-screen: 1920px;
+  // // Fonts
+  --main-font: 'Montserrat', serif;
+  // --secondary-font: 'Roboto', sans-serif;
+  // Text colors
+  --main-txt-cl: #ffffff;
+  // --address-txt-cl: #7a7a7a;
+  // --footer-subtitle-txt-cl: #8e8e8e;
+  // --footer-link-txt-cl: #d9d9d9;
+  // --footer-number-txt-cl: #bcbcbc;
+  // Accent colors
+  --accent-cl: #018abe;
+  --accent-hovered-cl: #057baa;
+  // Background colors
+  --background-cl: #162831;
+  // --background-dark-cl: #000000;
+  // Btn colors
+  --btn-white-cl: #ffffff;
+  // // Icons color
+  // --icon-menu-cl: #000000;
+  // Border radius
+  --btn-br: 3px;
+  // Duration
+  --duration: 250ms;
+  // Timing function
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
