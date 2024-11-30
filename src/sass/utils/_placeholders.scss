@@ -4,3 +4,21 @@
   line-height: 1.45;
   font-size: 64px;
 }
+
+%section-title {
+  font-weight: 700;
+  font-family: var(--secondary-font);
+  font-size: 42px;
+}
+
+%section-icon {
+  fill: var(--accent-cl);
+
+  &:first-child {
+    margin-right: 45px;
+  }
+
+  &:last-child {
+    margin-left: 45px;
+  }
+}

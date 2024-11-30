@@ -1,0 +1,61 @@
+.sessions {
+  @include section();
+}
+
+.sessions__container {
+  @extend .container;
+}
+
+.sessions__title {
+  @extend %section-title;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.sessions__icon {
+  @extend %section-icon;
+}
+
+.sessions__wrap {
+  display: flex;
+  gap: 24px;
+}
+
+.sessions__thumb {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  // width: 416px;
+  // height: 540px;
+}
+
+.sessions__text {
+  position: absolute;
+  bottom: 43px;
+  left: 50px;
+}
+
+.sessions__text,
+.sessions__descr {
+  font-weight: 700;
+  font-family: var(--secondary-font);
+  font-size: 24px;
+}
+
+.sessions__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 856px;
+}
+
+.sessions__item {
+  position: relative;
+}
+
+.sessions__descr {
+  position: absolute;
+  bottom: 30;
+  left: 40;
+  max-width: 300px;
+}
