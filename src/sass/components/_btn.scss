@@ -7,8 +7,6 @@
   font-family: inherit;
   font-weight: 500;
   font-size: 13px;
-  color: inherit;
-  background-color: var(--accent-cl);
   min-width: 155px;
   padding-top: 9px;
   padding-right: 15px;
@@ -17,10 +15,15 @@
   transition-property: background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
+}
+
+.btn--blue {
+  color: inherit;
+  background-color: var(--accent-cl);
 
   &:hover,
   &:focus {
-    background-color: var(--accent-hovered-cl);
+    background-color: var(--btn-blue-hovered-cl);
   }
 }
 
@@ -30,6 +33,6 @@
 
   &:hover,
   &:focus {
-    background-color: var(--accent-hovered-cl);
+    background-color: var(--btn-white-hovered-cl);
   }
 }

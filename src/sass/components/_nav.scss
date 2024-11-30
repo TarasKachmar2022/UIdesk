@@ -2,3 +2,16 @@
   display: flex;
   gap: 50px;
 }
+
+.nav__link {
+  cursor: pointer;
+  padding: 20 0;
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-hovered-cl);
+  }
+}
