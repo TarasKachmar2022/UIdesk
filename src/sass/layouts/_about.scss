@@ -1,0 +1,47 @@
+.about {
+  @include section();
+}
+
+.about__container {
+  @extend .container;
+}
+
+.about__title {
+  @extend %section-title;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.about__icon {
+  @extend %section-icon;
+}
+
+.about__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 84px;
+}
+
+.about__item:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.about__item:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+.about__subtitle {
+  @extend %subtitle;
+  margin-bottom: 30px;
+}
+
+.about__descr {
+  @extend %descr;
+  max-width: 500px;
+  line-height: 1.25;
+}
+
+.about__descr:not(:last-child) {
+  margin-bottom: 16px;
+}
