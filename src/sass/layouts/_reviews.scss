@@ -1,0 +1,17 @@
+.reviews {
+  @include section();
+}
+
+.reviews__container {
+  // @extend .container;
+}
+
+.reviews__title {
+  @extend %section-title;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.reviews__icon {
+  @extend %section-icon;
+}

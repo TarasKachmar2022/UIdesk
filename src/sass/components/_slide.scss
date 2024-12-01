@@ -1,0 +1,34 @@
+.slider-box {
+  display: flex;
+  width: 1736px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 400px;
+}
+
+.swiper {
+  // width: 100%;
+  // height: 400px;
+}
+
+.swiper-wrapper {
+  // overflow: hidden;
+}
+
+.swiper-slide {
+  margin-left: -150px;
+  // margin-left: -125px;
+  // margin-right: 195px;
+  max-height: 350px;
+  max-width: 636px;
+  border-radius: 10px;
+  background-color: var(--accent-cl);
+  padding-top: 50px;
+  padding-right: 60px;
+  padding-bottom: 56px;
+  padding-left: 60px;
+}
+
+.slide__subtitle {
+  margin-bottom: 20px;
+}
