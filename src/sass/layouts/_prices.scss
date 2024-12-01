@@ -1,0 +1,42 @@
+.prices {
+  @include section();
+}
+
+.prices__container {
+  @extend .container;
+}
+
+.prices__title {
+  @extend %section-title;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.prices__table {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 3;
+}
+
+.prices__icon {
+  fill: var(--accent-cl);
+  margin-right: 20px;
+}
+
+.prices__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.prices__name {
+  width: 300px;
+}
+
+.prices__descr {
+  font-weight: 700;
+  font-family: var(--secondary-font);
+  font-size: 21px;
+  text-align: center;
+  margin-top: 30px;
+}
