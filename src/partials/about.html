@@ -26,12 +26,33 @@
             lobortis rhoncus, elit nulla nisl. Habitant tortor at tempor.
           </p>
         </div>
-        <img
-          src="./images/about/about-img01.jpg"
-          alt="Дівчина у воді"
-          width="526"
-          height="400"
-        />
+        <picture>
+          <!-- desktop screen -->
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              ./images/about/about-img01.webp    1x,
+              ./images/about/about-img01@2x.webp 2x,
+              ./images/about/about-img01@3x.webp 3x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              ./images/about/about-img01.jpg        1x,
+              ./images/session/session-img01@2x.jpg 2x,
+              ./images/session/session-img01@3x.jpg 3x
+            "
+            type="image/jpeg"
+          />
+          <img
+            src="./images/about/about-img01@3x.jpg"
+            alt="Дівчина у воді"
+            width="526"
+            height="400"
+          />
+        </picture>
       </li>
       <li class="about__item">
         <div class="about__wrap">
@@ -54,12 +75,33 @@
             hendrerit feugiat libero tellus diam egestas dui tellus odio.
           </p>
         </div>
-        <img
-          src="./images/about/about-img02.jpg"
-          alt="Дівчина у воді"
-          width="526"
-          height="400"
-        />
+        <picture>
+          <!-- desktop screen -->
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              ./images/about/about-img02.webp    1x,
+              ./images/about/about-img02@2x.webp 2x,
+              ./images/about/about-img02@3x.webp 3x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              ./images/about/about-img02.jpg        1x,
+              ./images/session/session-img02@2x.jpg 2x,
+              ./images/session/session-img02@3x.jpg 3x
+            "
+            type="image/jpeg"
+          />
+          <img
+            src="./images/about/about-img02@3x.jpg"
+            alt="Дівчина у воді"
+            width="526"
+            height="400"
+          />
+        </picture>
       </li>
     </ul>
   </div>
