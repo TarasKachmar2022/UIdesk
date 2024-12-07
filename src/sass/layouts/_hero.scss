@@ -1,36 +1,38 @@
 .hero {
   @include section(0, 150);
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
 }
 
 .hero__container {
   @extend .container;
-  border-radius: 10px;
-
-  @media screen and (min-width: 1920px) {
-    height: 600px;
-    max-width: 1296px;
-    padding-top: 136px;
-    padding-bottom: 210px;
-    background-image: url(../images/hero/hero-img.jpg);
-    @media (min-device-pixel-ratio: 2),
-      (-webkit-min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(../images/hero/hero-img@2x.jpg);
-    }
-    @media (min-device-pixel-ratio: 3),
-      (-webkit-min-device-pixel-ratio: 3),
-      (min-resolution: 288dpi),
-      (min-resolution: 3dppx) {
-      background-image: url(../images/hero/hero-img@3x.jpg);
-    }
-  }
 }
 
 .hero__wrap {
+  border-radius: 10px;
+  background-color: var(--background-cl);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
+  height: 600px;
+  max-width: 1296px;
+  padding-top: 136px;
+  padding-bottom: 210px;
+  background-image: url(../images/hero/hero-img.jpg);
+  background-image: -webkit-image-set(url('../images/hero/hero-img.webp') 1x);
+  @include retinax2 {
+    background-image: url(../images/hero/hero-img@2x.jpg);
+    background-image: -webkit-image-set(
+      url('../images/hero/hero-img@2x.webp') 2x
+    );
+  }
+  @include retinax3 {
+    background-image: url(../images/hero/hero-img@3x.jpg);
+    background-image: -webkit-image-set(
+      url('../images/hero/hero-img@3x.webp') 3x
+    );
+  }
 }
 
 .hero__uppertitle {

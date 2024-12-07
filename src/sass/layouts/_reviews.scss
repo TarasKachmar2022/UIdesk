@@ -2,6 +2,12 @@
   @include section();
 }
 
+.reviews__container {
+  @extend .container;
+  padding-left: 92px;
+  padding-right: 92px;
+}
+
 .reviews__title {
   @extend %section-title;
   text-align: center;
